@@ -47,15 +47,15 @@ import sys
 test_dict = {
     'key1': {
         'member1': None,
-	'member2': None
+        'member2': None
     },
     'key2': {
         'member3': 1.1,
-	'member4': 2.0
+        'member4': 2.0
     },
     'key3': {
         'member5': 'field1',
-	'member6': 'field2'
+        'member6': 'field2'
     }
 }
 
