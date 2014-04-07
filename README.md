@@ -8,7 +8,9 @@ This C Python module will use C for handling the walking of a Python
 data structure, writing to a temporary file, and forking a process to
 use redis-cli's '--pipe' option to bulk insert into Redis. This
 process is faster than walking the structure in Python using the Redis
-module's pipeline methods. _Insert professional perf comparison here_
+module's pipeline methods.
+
+_Insert professional perf comparison here_
 
 Note that this is a fairly tailored solution. However, it is rather
 simple and straight forward to work with. Given a dictionary of
